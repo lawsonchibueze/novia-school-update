@@ -7,6 +7,11 @@ import "./globals.css";
 import { ourFileRouter } from "./api/uploadthing/core";
 import { Toaster } from "react-hot-toast";
 
+const rethink = Rethink_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 const inter = Rethink_Sans({
   subsets: ["latin"],
   display: "swap",
@@ -22,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={rethink.className}>
       <body className={inter.className}>
         <Toaster position="top-center" reverseOrder={false} />
         <NextSSRPlugin routerConfig={extractRouterConfig(ourFileRouter)} />

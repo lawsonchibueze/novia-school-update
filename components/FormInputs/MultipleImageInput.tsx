@@ -5,7 +5,9 @@ import React from "react";
 type ImageInputProps = {
   title: string;
   imageUrls: string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   setImageUrls: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   endpoint: any;
 };
 export default function MultipleImageInput({

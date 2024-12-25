@@ -3,10 +3,7 @@
 import { ErrorLayout } from "@/components/frontend/error-layout";
 import { ServerCrashIcon } from "lucide-react";
 
-export default function Error({
-  error,
-  reset,
-}: {
+export default function Error({}: {
   error: Error & { digest?: string };
   reset: () => void;
 }) {
