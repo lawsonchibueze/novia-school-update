@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="500" height="300">
+  <!-- Background rectangle -->
+  <rect width="500" height="300" fill="#f0f0f0"/>
+  
+  <!-- Diagonal lines to create a pattern -->
+  <pattern id="diagonalHatch" patternUnits="userSpaceOnUse" width="10" height="10">
+    <path d="M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2" style="stroke:#c0c0c0; stroke-width:2" />
+  </pattern>
+  
+  <!-- Filled rectangle with diagonal hatch pattern -->
+  <rect width="500" height="300" fill="url(#diagonalHatch)"/>
+  
+  <!-- Text in the center -->
+  <text 
+    x="250" 
+    y="150" 
+    text-anchor="middle" 
+    alignment-baseline="middle"
+    font-family="Arial, sans-serif" 
+    font-size="24" 
+    fill="#666"
+  >
+    Placeholder Image (500x300)
+  </text>
+</svg>
