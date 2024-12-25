@@ -5,7 +5,7 @@ import { BarChart2, DollarSign, GraduationCap, Users } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { cn } from "@/lib/utils";
+// import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
   Card,

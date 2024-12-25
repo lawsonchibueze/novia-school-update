@@ -7,33 +7,18 @@ import {
 } from "lucide-react";
 
 import {
-  ArrowRight,
-  AudioWaveform,
   BadgeCheck,
   Bell,
   BookOpen,
-  Bot,
   ChevronRight,
   ChevronsUpDown,
-  Command,
   CreditCard,
   DollarSign,
-  Folder,
-  Forward,
-  Frame,
-  GalleryVerticalEnd,
   LayoutDashboard,
   LogOut,
-  Map,
-  MoreHorizontal,
   Package,
   PieChart,
-  Plus,
-  Settings2,
-  ShoppingCart,
   Sparkles,
-  SquareTerminal,
-  Trash2,
 } from "lucide-react";
 
 import {
@@ -41,19 +26,14 @@ import {
   SidebarContent,
   SidebarFooter,
   SidebarGroup,
-  SidebarGroupLabel,
   SidebarHeader,
-  SidebarInset,
   SidebarMenu,
-  SidebarMenuAction,
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-  SidebarProvider,
   SidebarRail,
-  SidebarTrigger,
 } from "@/components/ui/sidebar";
 import {
   Collapsible,
@@ -67,7 +47,6 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";

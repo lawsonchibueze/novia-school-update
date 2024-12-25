@@ -7,9 +7,11 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import { CircleHelp, Mail } from "lucide-react";
+import { CircleHelp } from "lucide-react";
 type TextInputProps = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   register: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   errors: any;
   label: string;
   type?: string;
@@ -17,6 +19,7 @@ type TextInputProps = {
   toolTipText?: string;
   unit?: string;
   placeholder?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   icon?: any;
 };
 export default function TextInput({

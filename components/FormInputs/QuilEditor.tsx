@@ -10,7 +10,9 @@ export default function QuillEditor({
 }: {
   label: string;
   className: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   value: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onChange: any;
 }) {
   const modules = {

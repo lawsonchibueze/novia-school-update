@@ -6,7 +6,9 @@ import React from "react";
 type ImageInputProps = {
   title: string;
   imageUrl: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   setImageUrl: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   endpoint: any;
 };
 export default function ImageInput({

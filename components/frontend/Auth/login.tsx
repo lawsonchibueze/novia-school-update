@@ -1,8 +1,6 @@
 "use client";
 
 import { useForm } from "react-hook-form";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
 
 import TextInput from "@/components/FormInputs/TextInput";
 import SubmitButton from "@/components/FormInputs/SubmitButton";
@@ -17,14 +15,13 @@ export type RegisterInputProps = {
   phone: string;
 };
 export default function LoginForm() {
-  const [isLoading, setIsLoading] = useState(false);
   const {
     register,
     handleSubmit,
-    reset,
+
     formState: { errors },
   } = useForm<RegisterInputProps>();
-  const router = useRouter();
+
   async function onSubmit(data: RegisterInputProps) {
     console.log(data);
   }
@@ -71,8 +68,9 @@ export default function LoginForm() {
             <SubmitButton
               buttonIcon={LogIn}
               title="Sign In"
-              loading={isLoading}
+              // loading={isLoading}
               loadingTitle="Signing in please wait..."
+              loading={false}
             />
           </form>
         </div>

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Loader, Plus } from "lucide-react";
 import React from "react";
@@ -6,7 +6,9 @@ type SubmitButtonProps = {
   title: string;
   loadingTitle?: string;
   className?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   loaderIcon?: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   buttonIcon?: any;
   loading: boolean;
   showIcon?: boolean;

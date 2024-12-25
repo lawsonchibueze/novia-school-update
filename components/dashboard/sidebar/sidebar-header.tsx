@@ -7,7 +7,6 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Input } from "@/components/ui/input";
@@ -26,7 +25,6 @@ import {
   LogOut,
   Plus,
   Sparkles,
-  Sun,
 } from "lucide-react";
 import React from "react";
 const data = {

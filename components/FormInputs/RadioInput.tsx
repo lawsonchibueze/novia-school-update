@@ -7,9 +7,11 @@ type RadioOption = {
 
 type RadioInputProps = {
   radioOptions: RadioOption[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   register: any;
   label: string;
   name: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   errors: any;
 };
 export default function RadioInput({
